@@ -115,5 +115,25 @@ const { project } = Astro.props;
       height: 11rem;
       border-radius: 0.75rem;
     }
+
+    /* Adjust the title container size and its transform on smaller screens */
+    .title {
+      padding: 0.4rem; /* Reduce padding for smaller screens */
+      transform: translateY(100%); /* Reduce how much the title slides in */
+    }
+
+    /* Ensure hover effect also respects the reduced size */
+    .card:hover .title {
+      transform: translateY(0); /* Keep it consistent but smaller */
+    }
+
+    /* Reduce the title font size on smaller screens */
+    .title h3 {
+      font-size: var(--text-sm); /* Adjust this to your desired smaller size */
+    }
+
+    .card:hover .title h3 {
+      font-size: var(--text-sm); /* Same smaller size on hover */
+    }
   }
 </style>

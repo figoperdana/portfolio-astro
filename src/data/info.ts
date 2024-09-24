@@ -13,25 +13,25 @@ export const info = {
     ],
   
     socialMedia: {
-      github: "https://github.com/yourusername",
-      linkedin: "https://www.linkedin.com/in/yourusername",
-      twitter: "https://twitter.com/yourusername",
+      github: "https://github.com/figoperdana",
+      linkedin: "https://www.linkedin.com/in/figoperdana/",
+      twitter: "https://twitter.com/figonce",
     },
   
     projects: [
       {
-        title: "Project 1",
+        title: "Calendar MSI Platform",
         isFeatured: true,
-        thumbnail: "/assets/stock-3.jpg",
-        githubUrl: "https://github.com/yourusername/project1",
-        liveUrl: "https://project1-demo.com",
+        thumbnail: "/assets/MSI.jpg",
+        githubUrl: "https://github.com/figoperdana/calendar-msi",
+        liveUrl: "https://calendar-msi.vercel.app/",
       },
       {
-        title: "Project 2",
+        title: "Kopi Kayumas Platform",
         isFeatured: true,
-        thumbnail: "/assets/stock-1.jpg",
-        githubUrl: "https://github.com/yourusername/project2",
-        liveUrl: "https://project2-demo.com",
+        thumbnail: "/assets/Kayumas.jpg",
+        githubUrl: "https://github.com/figoperdana/ServerDockerWebsiteKayumas",
+        liveUrl: "https://github.com/figoperdana/ServerDockerWebsiteKayumas",
       },
       // Add more projects as needed
     ],
